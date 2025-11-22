@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div id="navbarMenu" class="navbar-menu">
                 <div class="navbar-end">
-                    <a href="../index.php#proyectos" class="navbar-item nav-link has-text-white">
+                    <a href="../index.php" class="navbar-item nav-link has-text-white">
                         <span class="icon is-small mr-1"><i class="fas fa-chevron-left"></i></span> Volver al Portafolio
                     </a>
                 </div>

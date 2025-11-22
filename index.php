@@ -41,7 +41,7 @@
 
                     <?php if (!isset($_SESSION['user_id'])): ?>
                         <div class="navbar-item buttons">
-                            <a href="pages/login.php" class="button is-small is-text has-text-white decoration-none">Login</a>
+                            <a href="pages/login.php" class="button is-small is-text has-text-white decoration-none">Inicio de Sesión</a>
                             <a href="#contacto" class="button is-small btn-header is-rounded">
                                 <span>Contacto</span>
                             </a>
