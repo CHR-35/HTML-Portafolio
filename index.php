@@ -83,7 +83,7 @@
                             <a href="#proyectos" class="button is-danger is-medium is-rounded shadow-lg">
                                 Ver Proyectos
                             </a>
-                            <a href="#contacto" class="button is-outlined is-danger is-medium is-rounded ml-3">
+                            <a href="https://github.com/CHR-35" target="_blank" class=" button is-outlined is-danger is-medium is-rounded ml-3">
                                 <span class="icon"><i class="fab fa-github"></i></span>
                                 <span>GitHub</span>
                             </a>
@@ -164,7 +164,7 @@
             <h2 class="title is-3 has-text-white mb-5">Conectemos</h2>
             <div class="columns is-centered is-mobile is-multiline">
                 <div class="column is-narrow">
-                    <a href="https://github.com/CHR-35" class="button is-dark is-medium is-rounded">
+                    <a href="https://github.com/CHR-35" target="_blank" class="button is-dark is-medium is-rounded">
                         <span class="icon has-text-white"><i class="fab fa-github"></i></span>
                     </a>
                 </div>
