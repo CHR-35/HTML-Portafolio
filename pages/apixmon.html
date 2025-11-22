@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apixmon | Proyecto Portafolio</title>
+    <link rel="icon" href="../assets/img/letra-c.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="project-body">
+
+    <!-- header -->
+    <nav class="navbar is-fixed-top site-header" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item logo" href="../index.php">CHR-35</a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="../index.php#proyectos" class="navbar-item nav-link has-text-white">
+                        <span class="icon is-small mr-1"><i class="fas fa-chevron-left"></i></span> Volver al Portafolio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="has-text-centered mb-6">
+                <h1 class="title is-1 acce  nt" style="font-size: 4rem;">Apixmon: La Pokédex Móvil</h1>
+                <p class="subtitle is-5 has-text-grey-light">
+                    Una aplicación nativa para Android e iOS, construida con enfoque en el consumo de APIs.
+                </p>
+                <div class="buttons is-centered mt-4">
+                    <a href="https://github.com/CHR-35/ApixMon" target="_blank"
+                        class="button is-danger is-medium is-rounded btn-header">
+                        <span class="icon"><i class="fab fa-github"></i></span>
+                        <span>Ver Código Fuente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- descripcion -->
+    <section class="section pt-0">
+        <div class="container is-max-desktop">
+
+            <div class="columns is-multiline">
+
+                <div class="column is-7">
+                    <div class="detail-card">
+                        <h2 class="title is-4 has-text-white mb-4">
+                            <span class="icon accent"><i class="fas fa-info-circle"></i></span>
+                            Detalles del Proyecto
+                        </h2>
+
+                        <p class="content has-text-grey-light">
+                            Apixmon es una aplicación móvil desarrollada para demostrar habilidades en **desarrollo
+                            nativo multiplataforma** y la gestión de datos externos. Permite a los usuarios buscar,
+                            filtrar y ver información detallada de personajes, similar a una Pokédex.
+                        </p>
+                        <p class="content has-text-grey-light">
+                            El principal desafío fue optimizar las llamadas a la API (PokéAPI) para asegurar una
+                            experiencia fluida incluso con datos voluminosos. Se implementó un sistema de *lazy loading*
+                            y *caching* para mejorar el rendimiento.
+                        </p>
+
+                        <hr class="has-background-grey-dark">
+
+                        <h3 class="title is-5 has-text-white mb-3">Tecnologías Clave:</h3>
+                        <div class="field is-grouped is-grouped-multiline">
+                            <div class="control">
+                                <div class="tags has-addons"><span class="tag tech-tag">Flutter</span></div>
+                            </div>
+                            <div class="control">
+                                <div class="tags has-addons"><span class="tag tech-tag">Dart</span></div>
+                            </div>
+                            <div class="control">
+                                <div class="tags has-addons"><span class="tag tech-tag">REST API</span></div>
+                            </div>
+                            <div class="control">
+                                <div class="tags has-addons"><span class="tag tech-tag">Provider/Bloc</span></div>
+                            </div>
+                            <div class="control">
+                                <div class="tags has-addons"><span class="tag tech-tag">UI/UX Móvil</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-5">
+
+                    <div class="screenshot-container mb-5">
+                        <img src="../assets/img/apixmon.png" alt="Captura de pantalla de la aplicación Apixmon"
+                            style="width: 100%; height: auto;">
+                    </div>
+
+                    <div class="detail-card">
+                        <h3 class="title is-5 has-text-white mb-3">Características:</h3>
+                        <ul class="has-text-grey-light content">
+                            <li><span class="icon accent"><i class="fas fa-mobile-alt"></i></span> Diseño
+                                Responsivo Móvil</li>
+                            <li><span class="icon accent"><i class="fas fa-search"></i></span> Búsqueda y
+                                Filtros Rápidos</li>
+                            <li><span class="icon accent"><i class="fas fa-layer-group"></i></span> Consumo de
+                                API asíncrono</li>
+                            <li><span class="icon accent"><i class="fas fa-bolt"></i></span> Navegación con
+                                alto rendimiento</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- imagenes -->
+    <section class="section pt-0">
+        <div class="container is-max-desktop">
+            <h3 class="title is-4 has-text-white has-text-centered mb-5">
+                Vistazo a la Interfaz 📱
+            </h3>
+    
+            <div class="columns is-multiline is-centered">
+    
+                <div class="column is-4-desktop is-6-tablet">
+                    <figure class="image is-3by5 screenshot-container">
+                        <img src="../assets/img/apixmon1.png" alt="Pantalla de búsqueda en Apixmon">
+                    </figure>
+                </div>
+    
+                <div class="column is-4-desktop is-6-tablet">
+                    <figure class="image is-3by5 screenshot-container">
+                        <img src="../assets/img/apixmon2.png" alt="Lista de personajes en Apixmon">
+                    </figure>
+                </div>
+    
+                <div class="column is-4-desktop is-6-tablet">
+                    <figure class="image is-3by5 screenshot-container">
+                        <img src="../assets/img/apixmon3.png" alt="Detalle de un personaje en Apixmon">
+                    </figure>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer has-background-black pt-6 pb-6">
+        <div class="content has-text-centered">
+            <p class="has-text-grey">
+                &copy;
+                <?php echo date("Y"); ?> <strong class="has-text-white">CHR-35</strong>.
+                Codeado con <span class="accent"><i class="fas fa-heart"></i></span> y PHP.
+            </p>
+        </div>
+    </footer>
+
+    <!-- navbar -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

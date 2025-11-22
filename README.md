@@ -1,8 +1,10 @@
-# ⚫ Portafolio Personal
+# ⚫ Portafolio Personal 2.0
 
-Sitio web personal creado con **HTML y CSS puro**, con un diseño **oscuro y moderno** en tonos **negro y rojo**. 
+Sitio web personal creado con **HTML y Bulma**, con un diseño **oscuro y moderno** en tonos **negro y rojo**. 
  
 Muestra mis proyectos, animaciones suaves y un enfoque minimalista inspirado en interfaces profesionales.
+
+Con la nueva actualizacion se permite registrarse, iniciar sesion, dejar comentarios, se crearon dos usuarios visitante y admin. Se agregaron diferentes metodos de seguridad como el cifrado de contraseñas a traves de hash y resitencia a inyeccion SQL y XSS.
 
 ---
 
@@ -10,15 +12,24 @@ Muestra mis proyectos, animaciones suaves y un enfoque minimalista inspirado en 
 
 ```
 portafolio/
-├── index.html
-├── projects/
+├── index.php
+├── pages/
 │   ├── apixmon.html  
-│   └── coming_soon   
-├── css/
-│   ├── styles.css
-│   └── projects.css
-└──  img/
-     └── ...
+│   ├── coming_soon .html
+│   ├── login.php (nuevo)
+│   └── register.php (nuevo)
+├── css/ (nuevo)
+│   └── styles.css
+├── common/ (nuevo)
+│    └── conexion.php
+├── controllers/ (nuevo)
+│    ├── comentar.php    
+│    ├── editar_comentario.php
+│    ├──eliminar_comentario.php
+│    └──logout.php
+└──  assets/
+     └── img/
+          └── ...
  
 ```
 
@@ -28,7 +39,10 @@ portafolio/
 
 - Animaciones con **@keyframes** y transiciones suaves.  
 - Navegación simple entre secciones y proyectos.  
-- Diseño minimalista negro/rojo.  
+- Diseño minimalista negro/rojo. 
+- Conexion con base de dato.
+- Diferentes usuario con permisos diferentes.
+- Seguridad Implementada
 
 ---
 
@@ -36,6 +50,8 @@ portafolio/
 
 - **HTML5**
 - **CSS3**
+- **BULMA**
+- **MYSQL**
 
 ---
 
